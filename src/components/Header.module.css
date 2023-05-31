@@ -1,0 +1,78 @@
+.invLogoRemasteredIcon {
+  position: relative;
+  width: 30.43px;
+  height: 68.07px;
+}
+.cast {
+  color: var(--color-saddlebrown);
+}
+.stemcast {
+  position: relative;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  width: 187px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.about,
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 236px;
+  height: 66.45px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.about {
+  position: relative;
+  letter-spacing: 0.15em;
+  width: 109.99px;
+  height: 43.61px;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: relative;
+  border-right: 0.9px solid var(--color-saddlebrown);
+  box-sizing: border-box;
+  width: 0.95px;
+  height: 30.37px;
+}
+.episodes,
+.team {
+  position: relative;
+  letter-spacing: 0.15em;
+  display: flex;
+  align-items: center;
+  width: 152.65px;
+  height: 43.61px;
+  flex-shrink: 0;
+}
+.team {
+  width: 90.07px;
+}
+.aboutParent,
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.aboutParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  font-size: 28.44px;
+  color: var(--color-saddlebrown);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-floralwhite);
+  padding: var(--padding-31xl) var(--padding-81xl);
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-indianred);
+  font-family: var(--font-inaimathi);
+}

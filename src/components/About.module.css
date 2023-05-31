@@ -1,0 +1,140 @@
+.g46 {
+  position: absolute;
+  height: 2.76%;
+  width: 27.61%;
+  top: 88.3%;
+  left: 12.82%;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.8);
+}
+.layer1Icon {
+  position: absolute;
+  height: 68.76%;
+  width: 52.33%;
+  top: 16.27%;
+  right: 16.03%;
+  bottom: 14.97%;
+  left: 31.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.n {
+  width: 9.69%;
+  top: 59.57%;
+  left: 70.05%;
+}
+.e28,
+.n,
+.n1 {
+  position: absolute;
+  height: 2.08%;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.8);
+}
+.n1 {
+  width: 9.69%;
+  top: 22.61%;
+  left: 51%;
+  font-size: 33.19px;
+}
+.e28 {
+  width: 25.06%;
+  top: 77.69%;
+  left: 38.42%;
+}
+.solidMech1,
+.solidMech2 {
+  position: absolute;
+  top: 0;
+  left: -199.11px;
+  width: 1066.67px;
+  height: 1601.42px;
+  overflow: hidden;
+}
+.solidMech1 {
+  width: 55.94%;
+  top: -180.15px;
+  right: 51.67%;
+  left: -7.6%;
+  height: 1383.34px;
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+.cornerFramesIcon,
+.stemcastCell3 {
+  position: absolute;
+  width: 100.62%;
+  top: 0;
+  right: -30.37%;
+  left: 29.74%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2169.35px;
+}
+.cornerFramesIcon {
+  height: 66.02%;
+  width: 33.09%;
+  top: 17.07%;
+  right: 12.18%;
+  bottom: 16.91%;
+  left: 54.73%;
+  max-height: 100%;
+}
+.aboutUs {
+  position: absolute;
+  width: 31.35%;
+  top: 214.28px;
+  left: 14.17%;
+  font-size: 94.81px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  height: 98.61px;
+}
+.loremIpsumDolor {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  position: absolute;
+  width: 31.35%;
+  top: 353.66px;
+  left: 14.17%;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  height: 456.06px;
+}
+.aboutChild,
+.aboutItem {
+  position: absolute;
+  border: 0.9px solid var(--color-silver);
+  box-sizing: border-box;
+}
+.aboutChild {
+  top: 180.15px;
+  left: 1010.73px;
+  width: 568.89px;
+  height: 663.7px;
+  display: none;
+}
+.aboutItem {
+  width: 22.14%;
+  top: 276.86px;
+  right: 17.81%;
+  left: 60.05%;
+  background-color: var(--color-brown);
+  height: 470.28px;
+}
+.about {
+  position: relative;
+  background-color: var(--color-linen-200);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 28.44px;
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inaimathi);
+}

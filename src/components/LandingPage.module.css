@@ -1,0 +1,107 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 851.92px;
+  height: 550px;
+}
+.s {
+  font-size: 94.81px;
+}
+.span {
+  font-size: 4.74px;
+}
+.span1 {
+  font-size: 9.48px;
+}
+.cast {
+  font-size: 94.81px;
+  color: var(--color-saddlebrown);
+}
+.sTEContainer {
+  position: relative;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  width: 570.79px;
+  height: 98.61px;
+  flex-shrink: 0;
+  -webkit-text-stroke: 0.9px #e2635b;
+  font-size: 4.74px;
+}
+.biotechnology,
+.sTEContainer {
+  color: var(--color-indianred);
+}
+.span3 {
+  color: var(--color-black);
+}
+.aPodcastMakingContainer,
+.listenNow {
+  position: relative;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  width: 570.79px;
+  height: 98.61px;
+  flex-shrink: 0;
+}
+.listenNow {
+  letter-spacing: 0.15em;
+  width: 258.84px;
+  height: 29.39px;
+}
+.frameItem {
+  position: relative;
+  width: 46.46px;
+  height: 46.46px;
+}
+.listenNowParent,
+.sTEMCastParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.sTEMCastParent {
+  position: absolute;
+  height: 63.94%;
+  top: 9.32%;
+  bottom: 26.74%;
+  left: calc(50% - 3.92px);
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-34xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-7xl);
+  background-image: url(/public/frame-3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.vectorParent {
+  position: relative;
+  width: 1345.73px;
+  height: 550px;
+}
+.landingPage,
+.landingPageInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landingPageInner {
+  flex: 1;
+  padding: var(--padding-218xl) var(--padding-216xl);
+}
+.landingPage {
+  background-color: var(--color-linen-100);
+  height: 1024px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 28.44px;
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inaimathi);
+}

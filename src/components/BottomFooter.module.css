@@ -1,0 +1,42 @@
+.contactUs {
+  position: relative;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  text-align: left;
+  width: 196px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.groupIcon {
+  position: relative;
+  width: 46.55px;
+  height: 46.55px;
+}
+.contactstemcastca,
+.igemmcgillca {
+  position: relative;
+  letter-spacing: 0.15em;
+}
+.igemmcgillca {
+  color: inherit;
+  display: inline-block;
+  width: 241px;
+  height: 32px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-saddlebrown);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-28xl) var(--padding-68xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-70xl);
+  text-align: right;
+  font-size: var(--font-size-9xl-5);
+  color: var(--color-linen-100);
+  font-family: var(--font-inaimathi);
+}

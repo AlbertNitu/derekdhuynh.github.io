@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=InaiMathi:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inaimathi: InaiMathi;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-9xl-5: 28.5px;
+  --font-size-9xl-4: 28.4px;
+  --font-size-75xl-8: 94.8px;
+  --font-size-14xl-2: 33.2px;
+  --font-size-8xs-7: 4.7px;
+  --font-size-3xs-5: 9.5px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-saddlebrown: #4a1b00;
+  --color-linen-100: #f2efe8;
+  --color-linen-200: #e5e1d5;
+  --color-brown: #9e3939;
+  --color-silver: #c9b6ac;
+  --color-gray: rgba(255, 255, 255, 0.8);
+  --color-floralwhite: #fbf8f3;
+  --color-black: #000;
+  --color-indianred: #e2635b;
+
+  /* Gaps */
+  --gap-70xl: 89px;
+  --gap-7xl: 26px;
+  --gap-xl: 20px;
+  --gap-lg: 18px;
+
+  /* Paddings */
+  --padding-28xl: 47px;
+  --padding-68xl: 87px;
+  --padding-31xl: 50px;
+  --padding-81xl: 100px;
+  --padding-218xl: 237px;
+  --padding-216xl: 235px;
+  --padding-9xl: 28px;
+  --padding-34xl: 53px;
+}
