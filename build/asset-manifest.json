@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/stemcast/static/css/main.58438795.css",
+    "main.js": "/stemcast/static/js/main.7db3710b.js",
+    "static/media/frame-3@3x.png": "/stemcast/static/media/frame-3@3x.80c6328b56ba0f1f7767.png",
+    "index.html": "/stemcast/index.html",
+    "main.58438795.css.map": "/stemcast/static/css/main.58438795.css.map",
+    "main.7db3710b.js.map": "/stemcast/static/js/main.7db3710b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58438795.css",
+    "static/js/main.7db3710b.js"
+  ]
+}
