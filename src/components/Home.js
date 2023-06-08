@@ -1,10 +1,14 @@
-import styles from "./LandingPage.module.css";
-const LandingPage1 = () => {
+import styles from "./Home.module.css";
+import homepic from "../assets/homepic.png"
+import group4 from "../assets/group-4.svg"
+import group5 from "../assets/group-5.svg"
+
+const Home = () => {
   return (
     <div className={styles.landingPage}>
       <div className={styles.landingPageInner}>
         <div className={styles.vectorParent}>
-          <img className={styles.frameChild} alt="" src="/rectangle-3.svg" />
+          <img className={styles.frameChild} alt="" src={homepic} />
           <div className={styles.sTEMCastParent}>
             <b className={styles.sTEContainer}>
               <span>
@@ -27,8 +31,8 @@ const LandingPage1 = () => {
             </div>
             <div className={styles.listenNowParent}>
               <b className={styles.listenNow}>Listen Now:</b>
-              <img className={styles.frameItem} alt="" src="/group-5.svg" />
-              <img className={styles.frameItem} alt="" src="/group-4.svg" />
+              <img className={styles.frameItem} alt="" src={group5} />
+              <img className={styles.frameItem} alt="" src={group4} />
             </div>
           </div>
         </div>
@@ -37,4 +41,4 @@ const LandingPage1 = () => {
   );
 };
 
-export default LandingPage1;
+export default Home;

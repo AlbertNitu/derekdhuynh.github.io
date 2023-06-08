@@ -1,3 +1,26 @@
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-saddlebrown);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-indianred);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--color-indianred);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .invLogoRemasteredIcon {
   position: relative;
   width: 30.43px;

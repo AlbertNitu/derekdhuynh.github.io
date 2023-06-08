@@ -14,11 +14,11 @@
 }
 .contactstemcastca,
 .igemmcgillca {
+  color: inherit;
   position: relative;
   letter-spacing: 0.15em;
 }
 .igemmcgillca {
-  color: inherit;
   display: inline-block;
   width: 241px;
   height: 32px;

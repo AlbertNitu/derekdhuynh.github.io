@@ -1,12 +1,15 @@
 import styles from "./Header.module.css";
-const Header1 = () => {
+import logo from "../assets/inv-logo-remastered.svg"
+import { Link } from 'react-router-dom';
+
+const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
         <img
           className={styles.invLogoRemasteredIcon}
           alt=""
-          src="/inv-logo-remastered.svg"
+          src={logo}
         />
         <b className={styles.stemcast}>
           <span>STEM</span>
@@ -14,14 +17,14 @@ const Header1 = () => {
         </b>
       </div>
       <div className={styles.aboutParent}>
-        <div className={styles.about}>ABOUT</div>
+        <Link className={styles.link} to='/stemcast'><div className={styles.about}>ABOUT</div></Link>
         <div className={styles.frameChild} />
-        <div className={styles.episodes}>EPISODES</div>
+        <Link className={styles.link} to='/stemcast/episodes'><div className={styles.episodes}>EPISODES</div></Link>
         <div className={styles.frameChild} />
-        <div className={styles.team}>TEAM</div>
+        <Link className={styles.link} to='/stemcast/team'><div className={styles.episodes}>TEAM</div></Link>
       </div>
     </div>
   );
 };
 
-export default Header1;
+export default Header;

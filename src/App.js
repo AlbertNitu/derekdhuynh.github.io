@@ -4,7 +4,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import FormattedFrame from "./pages/FormattedFrame";
+import LandingPage from "./pages/LandingPage";
+import Episodes from "./pages/Episodes";
+import Team from "./pages/Team";
 import { useEffect } from "react";
 
 function App() {
@@ -23,7 +25,15 @@ function App() {
     let metaDescription = "";
 
     switch (pathname) {
-      case "/":
+      case "/stemcast":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/stemcast/episodes":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/stemcast/team":
         title = "";
         metaDescription = "";
         break;
@@ -45,7 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<FormattedFrame />} />
+      <Route path="/stemcast" element={<LandingPage />} />
+      <Route path="/stemcast/episodes" element={<Episodes />} />
+      <Route path="/stemcast/team" element={<Team />} />
     </Routes>
   );
 }

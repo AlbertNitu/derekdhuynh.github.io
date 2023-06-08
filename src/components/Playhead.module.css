@@ -1,0 +1,61 @@
+.frameChild {
+    position: relative;
+    width: 44.34px;
+    height: 45.67px;
+  }
+  .epN,
+  .insertEpisodeTitle {
+    position: relative;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .polygonParent {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: var(--gap-46xl);
+  }
+  .div {
+    position: relative;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    width: 65.63px;
+    height: 34.71px;
+    flex-shrink: 0;
+  }
+  .frameParent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-361xl);
+  }
+  .playheadChild {
+    position: relative;
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  .playhead {
+    align-self: stretch;
+    background-color: var(--color-linen-200);
+    border: 3px solid var(--color-indianred);
+    box-sizing: border-box;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 var(--padding-21xl);
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color-indianred);
+    font-family: var(--font-inaimathi);
+  }
+  

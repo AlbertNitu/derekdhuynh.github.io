@@ -1,5 +1,9 @@
 import styles from "./About.module.css";
-const About = ({ layer1, stemcastCell3, cornerFrames }) => {
+import frame from '../assets/corner-frames.png';
+import layer1 from '../assets/layer11.svg';
+import stemcastCell3 from '../assets/stemcast-cell-3.svg';
+
+const About = ({}) => {
   return (
     <div className={styles.about}>
       <div className={styles.solidMech1}>
@@ -15,7 +19,7 @@ const About = ({ layer1, stemcastCell3, cornerFrames }) => {
 
       <div>
         <div className={styles.aboutItem} />
-        <img className={styles.cornerFramesIcon} alt="" src={cornerFrames} />
+        <img className={styles.cornerFramesIcon} alt="" src={frame} />
       </div>
       
       <div>

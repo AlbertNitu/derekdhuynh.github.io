@@ -1,17 +1,17 @@
 import Header from "../components/Header";
-import LandingPage from "../components/LandingPage";
+import Home from "../components/Home";
 import About from "../components/About";
 import BottomFooter from "../components/BottomFooter";
-import styles from "./FormattedFrame.module.css";
-const FormattedFrame = () => {
+import styles from "./LandingPage.module.css";
+const LandingPage = () => {
   return (
     <div className={styles.formattedFrame}>
       <Header />
-      <LandingPage />
-      <About cornerFrames="/corner-frames1.svg"s/>
+      <Home />
+      <About/>
       <BottomFooter />
     </div>
   );
 };
 
-export default FormattedFrame;
+export default LandingPage;
