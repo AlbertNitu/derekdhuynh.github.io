@@ -11,16 +11,7 @@ const Home = () => {
           <img className={styles.frameChild} alt="" src={homepic} />
           <div className={styles.sTEMCastParent}>
             <b className={styles.sTEContainer}>
-              <span>
-                <span className={styles.s}>S</span>
-                <span className={styles.span}>{` `}</span>
-                <span className={styles.s}>T</span>
-                <span className={styles.span1}>{` `}</span>
-                <span className={styles.s}>E</span>
-                <span className={styles.span1}>{` `}</span>
-                <span className={styles.s}>M</span>
-                <span>{`  `}</span>
-              </span>
+              <span className={styles.s}>STEM</span>
               <span className={styles.cast}>cast.</span>
             </b>
             <div className={styles.aPodcastMakingContainer}>

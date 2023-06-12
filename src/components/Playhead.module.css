@@ -1,7 +1,9 @@
 .frameChild {
     position: relative;
-    width: 44.34px;
-    height: 45.67px;
+    width: 100%;
+    margin: 15px;
+    width: 100%;
+    max-width: 30px;
   }
   .epN,
   .insertEpisodeTitle {
@@ -21,9 +23,6 @@
   .div {
     position: relative;
     letter-spacing: 0.1em;
-    display: inline-block;
-    width: 65.63px;
-    height: 34.71px;
     flex-shrink: 0;
   }
   .frameParent {

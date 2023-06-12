@@ -1,0 +1,22 @@
+.teamMemberWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 366.71px;
+}
+
+.pic {
+    width: 366.71px;
+    height: 370.98px;
+}
+
+.summary {
+    font-family: 'InaiMathi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.15em;
+
+    color: #4A1B00;
+}
+

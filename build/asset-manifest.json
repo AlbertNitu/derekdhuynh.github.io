@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/stemcast/static/css/main.58438795.css",
-    "main.js": "/stemcast/static/js/main.7db3710b.js",
+    "main.css": "/stemcast/static/css/main.7a14a0af.css",
+    "main.js": "/stemcast/static/js/main.753570fc.js",
+    "static/media/background.png": "/stemcast/static/media/background.53a141963cc16ad0216d.png",
     "static/media/frame-3@3x.png": "/stemcast/static/media/frame-3@3x.80c6328b56ba0f1f7767.png",
+    "static/media/homepic.png": "/stemcast/static/media/homepic.65914efa8eb8faf3261b.png",
+    "static/media/stemcast-cell-3.svg": "/stemcast/static/media/stemcast-cell-3.8d97a37de27a4d36a527e3530a737d93.svg",
+    "static/media/inv-logo-remastered.svg": "/stemcast/static/media/inv-logo-remastered.4c408326c9f42326ebe92a45825f1069.svg",
+    "static/media/layer11.svg": "/stemcast/static/media/layer11.cbd2c54633e8e6ab53a64ddcfa8d4847.svg",
+    "static/media/group-5.svg": "/stemcast/static/media/group-5.4ff9314df92389ff8e5533b989b0096d.svg",
+    "static/media/group.svg": "/stemcast/static/media/group.a4538e7b2c015d2f6e198f7988f1943f.svg",
+    "static/media/group1.svg": "/stemcast/static/media/group1.347c1c1a780f09c5f38defeaba23c17e.svg",
+    "static/media/group-4.svg": "/stemcast/static/media/group-4.4b437078cc29792706dc075ad4302ae8.svg",
     "index.html": "/stemcast/index.html",
-    "main.58438795.css.map": "/stemcast/static/css/main.58438795.css.map",
-    "main.7db3710b.js.map": "/stemcast/static/js/main.7db3710b.js.map"
+    "static/media/play.svg": "/stemcast/static/media/play.d7796ec95594b9944e95982343a9fa6b.svg",
+    "main.7a14a0af.css.map": "/stemcast/static/css/main.7a14a0af.css.map",
+    "main.753570fc.js.map": "/stemcast/static/js/main.753570fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.58438795.css",
-    "static/js/main.7db3710b.js"
+    "static/css/main.7a14a0af.css",
+    "static/js/main.753570fc.js"
   ]
 }

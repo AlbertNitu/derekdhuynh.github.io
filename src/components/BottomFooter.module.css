@@ -1,10 +1,5 @@
 .contactUs {
-  position: relative;
   letter-spacing: 0.1em;
-  display: inline-block;
-  text-align: left;
-  width: 196px;
-  height: 34px;
   flex-shrink: 0;
 }
 .groupIcon {
@@ -20,8 +15,6 @@
 }
 .igemmcgillca {
   display: inline-block;
-  width: 241px;
-  height: 32px;
   flex-shrink: 0;
   text-decoration: none;
 }
@@ -31,12 +24,12 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-28xl) var(--padding-68xl);
+  padding: 25px 61px;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-70xl);
+  gap: 50px;
   text-align: right;
-  font-size: var(--font-size-9xl-5);
+  font-size: 19px;
   color: var(--color-linen-100);
   font-family: var(--font-inaimathi);
 }
