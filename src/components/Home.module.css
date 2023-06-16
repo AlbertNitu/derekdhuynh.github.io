@@ -1,56 +1,29 @@
-.frameChild {
-  position: absolute;
-  width: 851.92px;
-  height: 550px;
-}
 .s {
-  font-size: 94.81px;
-}
-.span {
-  font-size: 4.74px;
-}
-.span1 {
-  font-size: 9.48px;
+  font-size: 46.46px;
 }
 .cast {
-  font-size: 94.81px;
+  font-size: 46.46px;
   color: var(--color-saddlebrown);
 }
+
 .sTEContainer {
   position: relative;
   letter-spacing: 0.1em;
-  display: inline-block;
-  width: 570.79px;
-  height: 98.61px;
   flex-shrink: 0;
   -webkit-text-stroke: 0.9px #e2635b;
-  font-size: 4.74px;
 }
 .biotechnology,
 .sTEContainer {
   color: var(--color-indianred);
 }
-.span3 {
-  color: var(--color-black);
-}
-.aPodcastMakingContainer,
-.listenNow {
-  position: relative;
-  letter-spacing: 0.1em;
-  display: inline-block;
-  width: 570.79px;
-  height: 98.61px;
-  flex-shrink: 0;
-}
+
 .listenNow {
   letter-spacing: 0.15em;
-  width: 258.84px;
-  height: 29.39px;
 }
 .frameItem {
   position: relative;
-  width: 46.46px;
-  height: 46.46px;
+  width: 16.26px;
+  height: 16.26px;
 }
 .listenNowParent,
 .sTEMCastParent {
@@ -61,47 +34,149 @@
   gap: var(--gap-xl);
 }
 .sTEMCastParent {
-  position: absolute;
+  position: relative;
   flex-direction: column;
-  width: 676.79px;
-  height: 353.66px;
-  left: 52.81%;
-  right: 10.73%;
-  top: 15%;
-  bottom: 32.22%;
-  padding: 28px 53px;
+  width: 350px;
+  height: 164px;
   box-sizing: border-box;
   align-items: flex-start;
-  gap: var(--gap-7xl);
-  background-image: url(/public/frame-3@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  gap: 7px;
+  background: #EBE8E0;
+  box-shadow: 0px 2.41595px 2.41595px rgba(0, 0, 0, 0.25);
+  padding: 16px 35px;
 }
 .vectorParent {
   position: relative;
   width: 1345.73px;
   height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.landingPage,
-.landingPageInner {
+.landingPage, .landingPageInner {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.landingPageInner {
-  flex: 1;
-  padding: var(--padding-218xl) var(--padding-216xl);
-}
 .landingPage {
   background-color: var(--color-linen-100);
-  height: 800px;
+  height: 230px;
   overflow: hidden;
   flex-shrink: 0;
   text-align: left;
   font-size: 28.44px;
   color: var(--color-saddlebrown);
   font-family: var(--font-inaimathi);
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.aPodcastMakingContainer,
+  .listenNow {
+    position: relative;
+    letter-spacing: 0.1em;
+    flex-shrink: 0;
+    font-size: 12px;
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .aPodcastMakingContainer,
+  .listenNow {
+    position: relative;
+    letter-spacing: 0.1em;
+    flex-shrink: 0;
+    font-size: 12px;
+  }
+  .s {
+    font-size: 94.81px;
+  }
+  .cast {
+    font-size: 94.81px;
+    color: var(--color-saddlebrown);
+  }
+  .frameItem {
+    width: 46.46px;
+    height: 46.46px;
+  }
+  .aPodcastMakingContainer,
+  .listenNow {
+    font-size: 28.44px;
+  }
+  .sTEMCastParent {
+    flex-direction: column;
+    width: 630px;
+    height: 353.66px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 23px;
+  }
+  .landingPage {
+    background-color: var(--color-linen-100);
+    height: 512px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 28.44px;
+    color: var(--color-saddlebrown);
+    font-family: var(--font-inaimathi);
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  
+}
+
+/* Large devices such as laptops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  .s {
+    font-size: 94.81px;
+  }
+  .cast {
+    font-size: 94.81px;
+    color: var(--color-saddlebrown);
+  }
+  .frameItem {
+    width: 46.46px;
+    height: 46.46px;
+  }
+  .aPodcastMakingContainer,
+  .listenNow {
+    font-size: 28.44px;
+  }
+  .frameChild {
+    position: absolute;
+    width: 851.92px;
+    height: 550px;
+    margin-right: 400px;
+    box-shadow: 0px 4px 37.93px rgba(0, 0, 0, 0.25);
+  }
+  .sTEMCastParent {
+    position: absolute;
+    flex-direction: column;
+    width: 630px;
+    height: 353.66px;
+    margin-left: 600px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 23px;
+  }
+  .landingPage {
+    background-color: var(--color-linen-100);
+    height: 800px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 28.44px;
+    color: var(--color-saddlebrown);
+    font-family: var(--font-inaimathi);
+    background-image: none;
+  }
 }

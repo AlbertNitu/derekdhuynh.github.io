@@ -1,22 +1,53 @@
 .teamMemberWrapper {
     display: flex;
     flex-direction: column;
-    width: 366.71px;
+    width: 152.71px;
 }
 
 .pic {
-    width: 366.71px;
-    height: 370.98px;
+    width: 152.71px;
+    height: 167.41px;
+
 }
 
 .summary {
     font-family: 'InaiMathi';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 13px;
+    line-height: 16.92px;
     letter-spacing: 0.15em;
-
     color: #4A1B00;
 }
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 40em) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width:48em) {
+    .summary {
+        font-family: 'InaiMathi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: 0.15em;
+        color: #4A1B00;
+    }
+    .pic {
+        width: 366.71px;
+        height: 370.98px;
+    }
+    .teamMemberWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 366.71px;
+    }
+}
+  
+  /* Medium devices such as tablets (1024px and up) */
+  @media only screen and (min-width:64em) {
+    
+  }
 

@@ -8,6 +8,10 @@ import LandingPage from "./pages/LandingPage";
 import Episodes from "./pages/Episodes";
 import Team from "./pages/Team";
 import { useEffect } from "react";
+import DesktopBreakpoint from './components/responsive_utilities/desktop_breakpoint';
+import TabletBreakpoint from './components/responsive_utilities/tablet_breakpoint';
+import PhoneBreakpoint from './components/responsive_utilities/mobile_breakpoint';
+
 
 function App() {
   const action = useNavigationType();
@@ -54,11 +58,11 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/stemcast" element={<LandingPage />} />
-      <Route path="/stemcast/episodes" element={<Episodes />} />
-      <Route path="/stemcast/team" element={<Team />} />
-    </Routes>
+      <Routes>
+        <Route path="/stemcast" element={<LandingPage />} />
+        <Route path="/stemcast/episodes" element={<Episodes />} />
+        <Route path="/stemcast/team" element={<Team />} />
+      </Routes>
   );
 }
 export default App;

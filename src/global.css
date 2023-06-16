@@ -4,6 +4,14 @@ body {
   margin: 0;
   line-height: normal;
 }
+
+html, body, #app, #app>div {
+  height: 100vh;
+}
+
+[data-reactroot] 
+        {height: 100% !important; }
+
 :root {
   /* fonts */
   --font-inaimathi: InaiMathi;

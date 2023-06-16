@@ -78,42 +78,32 @@
 .aboutUsContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: 0px;
-  gap: 41px;
+  gap: 30px;
   z-index: 1;
   width: 570.79px;
 }
 
 .aboutUs {
   position: relative;
-  font-size: 94.81px;
+  font-size: 33.19px;
   letter-spacing: 0.1em;
-}
-
-.cornerFramesContainer {
-  position: relative;
-  width: 400px;
-}
-
-.cornerFramesIcon {
-  width: 100%;
 }
 
 .loremIpsumDolor {
   margin: 0;
   letter-spacing: 0.1em;
-  font-size: 28.4px;
+  font-size: 14.22px;
 }
 
 .about {
   position: relative;
   align-self: stretch;
   background-color: var(--color-linen-200);
-  height: 1024px;
+  height: 542px;
   overflow: hidden;
   flex-shrink: 0;
-  text-align: right;
   font-size: 28.4px;
   color: var(--color-saddlebrown);
   font-family: var(--font-inaimathi);
@@ -126,3 +116,114 @@
   padding: var(--padding-28xl) var(--padding-68xl);
   gap: 130px;
 }
+
+.cornerFramesContainer {
+  position: relative;
+  width: 400px;
+}
+
+.cornerFramesIcon {
+  width: 100%;
+}
+
+.frameContainer {
+  width: 100%;
+  height: 165px;
+
+  background: #9E3939;
+  border: 2px solid #4A1B00;
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .aboutUs {
+    position: relative;
+    font-size: 45px;
+    letter-spacing: 0.1em;
+  }
+  .aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 41px;
+    z-index: 1;
+    width: 570.79px;
+    text-align: right;
+  }
+  .loremIpsumDolor {
+    margin: 0;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+  }
+  .about {
+    height: 512px;
+  }
+  .cornerFramesContainer {
+    width: 600px;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .aboutUs {
+    position: relative;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+  }
+  .aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 41px;
+    z-index: 1;
+    width: 570.79px;
+    text-align: right;
+  }
+  .loremIpsumDolor {
+    margin: 0;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+  }
+  .about {
+    height: 1024px;
+  }
+  .cornerFramesContainer {
+    width: 600px;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 80em) {
+  .aboutUs {
+    position: relative;
+    font-size: 94.81px;
+    letter-spacing: 0.1em;
+  }
+  .aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 41px;
+    z-index: 1;
+    width: 570.79px;
+    text-align: right;
+  }
+  .loremIpsumDolor {
+    margin: 0;
+    letter-spacing: 0.1em;
+    font-size: 28.44px;
+  }
+  .about {
+    height: 1024px;
+  }
+  .cornerFramesContainer {
+    width: 600px;
+  }
+}
+
+
+
+

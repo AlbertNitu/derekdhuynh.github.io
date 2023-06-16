@@ -33,3 +33,33 @@
   color: var(--color-linen-100);
   font-family: var(--font-inaimathi);
 }
+
+/* Small devices such as tablets (768px and below) */
+@media only screen and (max-width: 48em) {
+  .footer {
+    align-self: stretch;
+    background-color: var(--color-saddlebrown);
+    overflow: hidden;
+    display: flex;
+    padding: 16px 29px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    text-align: right;
+    font-size: 17px;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .footer {
+    font-size: 17px;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .footer {
+    font-size: 19px;
+  }
+}

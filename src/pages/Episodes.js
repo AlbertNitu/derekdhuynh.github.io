@@ -11,7 +11,7 @@ const Episodes = () => {
   return (
     <div className={styles.episodesWrapper}>
         <Header />
-        <div className={styles.insertImageParent} style={{ backgroundImage: `url(${background})`}}>
+        <div className={styles.insertImageParent}>
           <div className={styles.episodes}>
             <b className={styles.episodes1}>Episodes</b>
             <img className={styles.episodesChild} alt="" src={line} />

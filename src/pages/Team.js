@@ -13,14 +13,10 @@ const Team = () => {
   return (
     <div className={styles.teamWrapper}>
       <Header />
-      <div className={styles.insertImageParent} style={{ backgroundImage: `url(${background})`}}>
-          <div className={styles.episodes}>
+      <div className={styles.insertImageParent}>
+          <div className={styles.title}>
             <b className={styles.episodes1}>Team</b>
             <img className={styles.episodesChild} alt="" src={line} />
-            <div className={styles.groupParent}>
-              <img className={styles.frameChild} alt="" src={spotify} />
-              <img className={styles.frameChild} alt="" src={apple} />
-            </div>
           </div>
         </div>
       <div className={styles.teamSection}>

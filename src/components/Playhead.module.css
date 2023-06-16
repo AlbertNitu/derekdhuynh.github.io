@@ -1,60 +1,96 @@
 .frameChild {
     position: relative;
     width: 100%;
-    margin: 15px;
     width: 100%;
-    max-width: 30px;
+    max-width: 21px;
   }
   .epN,
   .insertEpisodeTitle {
     position: relative;
     letter-spacing: 0.1em;
     display: inline-block;
+  }
+  .epN {
     flex-shrink: 0;
   }
-  .polygonParent {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: var(--gap-46xl);
+  .insertEpisodeTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0; /* or some value */
   }
-  .div {
+  .time {
     position: relative;
     letter-spacing: 0.1em;
     flex-shrink: 0;
   }
+  .episodes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 0; /* or some value */
+  }
+
   .frameParent {
     align-self: stretch;
     flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: inherit;
     gap: var(--gap-361xl);
-  }
-  .playheadChild {
-    position: relative;
-    width: 0;
-    height: 0;
-    display: none;
   }
   .playhead {
     align-self: stretch;
     background-color: var(--color-linen-200);
     border: 3px solid var(--color-indianred);
     box-sizing: border-box;
-    height: 84px;
     display: flex;
     flex-direction: row;
-    padding: 0 var(--padding-21xl);
+    padding: 15px 15px;
     align-items: center;
     justify-content: space-between;
-    gap: var(--gap-3xs);
+    gap: 40px;
     text-align: left;
-    font-size: var(--font-size-11xl);
+    font-size: 15px;
     color: var(--color-indianred);
     font-family: var(--font-inaimathi);
   }
   
+  /* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .playhead {
+    padding: 28px 50px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 25px;
+    gap: 30px;
+  }
+  .episodes {
+    gap: 40px;
+  }
+  .frameChild {
+    max-width: 30px;
+  }
+}
+
+  /* Medium devices such as tablets (1024px and up) */
+  @media only screen and (min-width:80em) {
+    .playhead {
+      padding: 15px 50px;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0.1em;
+    }
+    .episodes {
+      gap: 60px;
+    }
+  }
