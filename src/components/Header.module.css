@@ -88,6 +88,7 @@ a:active {
   font-size: 19px;
   color: var(--color-indianred);
   font-family: var(--font-inaimathi);
+  z-index: 2000;
 }
 
   /* Medium devices such as tablets (768px and up) */
