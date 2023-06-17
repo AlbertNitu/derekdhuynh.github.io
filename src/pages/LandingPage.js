@@ -47,7 +47,6 @@ const LandingPage = () => {
           </Breakpoint>
           <Breakpoint at='lg'>
           <img className={styles.solidMech1} src={solidMech}></img>
-          <img className={styles.stemcastCell3} alt="" src={stemcastCell3} />
             <div className={styles.aboutUsContainer}>
               <b className={styles.aboutUs}>{`About Us `}</b>
               <p

@@ -2,10 +2,7 @@ import Header from "../components/Header";
 import BottomFooter from "../components/BottomFooter";
 import TeamMember from "../components/TeamMember";
 import styles from "./Team.module.css";
-import background from "../assets/background.png"
 import line from "../assets/line.png"
-import apple from "../assets/group-4.svg"
-import spotify from "../assets/group-5.svg"
 import currentTeam from "../data/currentTeam"
 import pastTeam from "../data/pastTeam"
 

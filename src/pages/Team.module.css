@@ -37,7 +37,6 @@
   position: relative;
   background-color: var(--color-linen-100);
   width: 100%;
-  overflow: hidden;
   text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color-indianred);

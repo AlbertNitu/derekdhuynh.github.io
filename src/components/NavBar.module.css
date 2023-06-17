@@ -1,43 +1,100 @@
-.navBar {
+:root {
+    --nav-sm: 69px;
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: var(--color-saddlebrown);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--color-indianred);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: var(--color-indianred);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/*.navBar {
     z-index: 9999;
     transition-duration: 0.3s;
     pointer-events: none;
-}
+}*/
 
 .menuSwitch {
     pointer-events: all;
+    cursor: pointer;
 }
 
-.menuSwitch i {
-    cursor: pointer;
+.menuSwitch:active {
+    color: var(--color-indianred);
+}
+.menuSwitch:hover {
+    color: var(--color-indianred);
+    fill: var(--color-indianred);   
+}
+
+.navContainer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-linen-100);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .3s
+                cubic-bezier(0, .52, 0, 1);
+    overflow: scroll;
+    z-index: 3000;
+}
+   
+.navContainer.hide {
+    transform: translate3d(100vw, var(--nav-sm), 0);
+}
+   
+.navContainer.show {
+    transform: translate3d(0vw, var(--nav-sm), 0);
+    overflow: hidden;
+}
+   
+.navContainer h2 a {
+    color: #333;
+    margin-left: 15px;
+    text-decoration: none;
 }
 
 .menuItems {
     margin: 0;
     padding: 0;
     position: relative;
-    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     list-style: none;
-    color: white;
+    letter-spacing: 0.15em;
+    padding: var(--padding-sm);
+    gap: 20px;
+}
+.link {
+    height: 20px;
 }
 
-.navContainer {
+.frameChild {
+    position: relative;
+    border: 0.9px solid var(--color-saddlebrown);
+    height: 0px;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    transition-duration: 0.3s;
-    translate: translateX(-100%);
-    opacity: 0;
-}
-
-.menuActive {
-    opacity: 1;
-    transform: translate(0);
 }
 
 @media screen and (max-width: 40em) {
@@ -46,12 +103,8 @@
 
 @media screen and (min-width: 600px) {
 
-    .navContainer {
+    /*.navContainer {
         transform: translateY(-100%);
         width: 100%;
-    }
-
-    .navIcon {
-        font-size: 4em;
-    }
+    }*/
 }

@@ -1,47 +1,52 @@
 .playheadParent {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding: 32px 32px;
     box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: stretch;
+    justify-content: stretch;
     gap: 22px;
-  }
-  .episodes1 {
+}
+.episodes1 {
     position: relative;
     letter-spacing: 0.1em;
     display: inline-block;
     flex-shrink: 0;
     -webkit-text-stroke: 1px #e2635b;
-  }
-  .episodesChild {
+}
+.episodesChild {
     position: relative;
     width: 108.5px;
     height: 8px;
     object-fit: cover;
-  }
-  .frameChild {
+}
+.frameChild {
     position: relative;
     width: 29px;
     height: 29px;
-  }
-  .groupParent {
+    display: flex;
+}
+.frameChild img {
+  width: 100%;
+}
+.groupParent {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 15px;
-  }
-  .episodes {
+}
+.episodes {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: var(--gap-7xl);
-  }
-  .insertImageParent {
+}
+.insertImageParent {
     position: relative;
     width: 100%;
     height: 207px;
@@ -54,28 +59,32 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-  }
-  .epN,
-  .insertEpisodeTitle {
+}
+.epN,
+.insertEpisodeTitle {
     position: relative;
     letter-spacing: 0.1em;
     display: inline-block;
     width: 87.8px;
     height: 34.71px;
     flex-shrink: 0;
-  }
-  .insertEpisodeTitle {
+}
+.insertEpisodeTitle {
     width: 532.13px;
-  }
-  .episodesWrapper {
+}
+.episodesWrapper {
     position: relative;
     background-color: var(--color-linen-100);
     width: 100%;
-    min-height: 100%;
-    text-align: left;
+    min-height: 100vh;
+    overflow: hidden;
     color: var(--color-indianred);
     font-family: var(--font-inaimathi);
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width:48em) {
@@ -85,8 +94,8 @@
     flex-direction: column;
     padding: var(--padding-31xl) var(--padding-31xl);
     box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: stretch;
+    justify-content: stretch;
     gap: 37px;
   }
   .insertImageParent {
@@ -119,8 +128,8 @@
     flex-direction: column;
     padding: var(--padding-31xl) var(--padding-31xl);
     box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: stretch;
+    justify-content: center;
     gap: 37px;
   }
 }

@@ -1,58 +1,11 @@
 .formattedFrame {
   position: relative;
   width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-}
-
-.g46 {
-  position: absolute;
-  height: 2.76%;
-  width: 27.61%;
-  top: 88.3%;
-  left: 12.82%;
-  letter-spacing: 0.1em;
-  display: inline-block;
-  -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.8);
-}
-.layer1Icon {
-  position: absolute;
-  height: 68.76%;
-  width: 52.33%;
-  top: 16.27%;
-  right: 16.03%;
-  bottom: 14.97%;
-  left: 31.64%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.n {
-  width: 9.69%;
-  top: 59.57%;
-  left: 70.05%;
-}
-.e28,
-.n,
-.n1 {
-  position: absolute;
-  height: 2.08%;
-  letter-spacing: 0.1em;
-  display: inline-block;
-  -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.8);
-}
-.n1 {
-  width: 9.69%;
-  top: 22.61%;
-  left: 51%;
-  font-size: 33.19px;
-}
-.e28 {
-  width: 25.06%;
-  top: 77.69%;
-  left: 38.42%;
 }
 .solidMech1{
   position: absolute;
@@ -68,8 +21,8 @@
 .stemcastCell3 {
   position: absolute;
   width: 100%;
-  top: 0;
-  left: 29.74%;
+  top: -109%;
+  left: 38.74%;
   max-width: 100%;
   overflow: hidden;
   height: 2169.35px;

@@ -5,12 +5,11 @@ body {
   line-height: normal;
 }
 
-html, body, #app, #app>div {
-  height: 100vh;
+html, body {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
 }
-
-[data-reactroot] 
-        {height: 100% !important; }
 
 :root {
   /* fonts */
@@ -44,6 +43,7 @@ html, body, #app, #app>div {
   --gap-lg: 18px;
 
   /* Paddings */
+  --padding-sm: 26px;
   --padding-28xl: 47px;
   --padding-68xl: 87px;
   --padding-31xl: 50px;

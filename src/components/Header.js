@@ -31,7 +31,13 @@ const Header = () => {
           <NavBar/>
         </Breakpoint>
         <Breakpoint at="md">
-          <NavBar/>
+          <div className={styles.aboutParent}>
+            <Link className={styles.link} to='/stemcast'><div className={styles.about}>ABOUT</div></Link>
+            <div className={styles.frameChild} />
+            <Link className={styles.link} to='/stemcast/episodes'><div className={styles.episodes}>EPISODES</div></Link>
+            <div className={styles.frameChild} />
+            <Link className={styles.link} to='/stemcast/team'><div className={styles.episodes}>TEAM</div></Link>
+          </div>
         </Breakpoint>
         <Breakpoint at="lg">
           <div className={styles.aboutParent}>

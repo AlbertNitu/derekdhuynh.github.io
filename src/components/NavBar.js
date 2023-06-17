@@ -12,12 +12,13 @@ function NavBar() {
 
     return (
     <div className={styles.navBar}>
+        
         <img
                 alt=""
                 src={nav}
-                className={`${styles.navIcon} ${styles.menuSwitch}`} onClick={switch_menu}
+                className={`${styles.menuSwitch}`} onClick={switch_menu}
         />
-        <div className={`${styles.navContainer} ${showMenu ? styles.menuActive : null}`}>
+        <div className={`${styles.navContainer} ${showMenu ? styles.show : styles.hide}`}>
           <div className={styles.menuItems}>
             <Link className={styles.link} to='/stemcast'>ABOUT</Link>
             <div className={styles.frameChild} />

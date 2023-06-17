@@ -3,6 +3,9 @@ import homepic from "../assets/homepic.png"
 import group4 from "../assets/group-4.svg"
 import group5 from "../assets/group-5.svg"
 import Breakpoint from "./responsive_utilities/breakpoint";
+import stemcastCell4 from "../assets/stemcastCell4.svg";
+import stemcastCell3 from "../assets/stemcast-cell-3.svg";
+import React, { useEffect, useRef } from 'react';
 
 const Home = () => {
   return (
@@ -10,6 +13,8 @@ const Home = () => {
       <div className={styles.landingPageInner}>
       <Breakpoint at="xlg">
             <img className={styles.frameChild} alt="" src={homepic} />
+            <img className={styles.stemcastCell3} alt="" src={stemcastCell3} />
+            
       </Breakpoint>
             <div className={styles.sTEMCastParent}>
               <b className={styles.sTEContainer}>
@@ -23,8 +28,8 @@ const Home = () => {
               </div>
               <div className={styles.listenNowParent}>
                 <b className={styles.listenNow}>Listen Now:</b>
-                <img className={styles.frameItem} alt="" src={group5} />
-                <img className={styles.frameItem} alt="" src={group4} />
+                <a className={styles.frameItem} href=""><img  alt="" src={group5} /></a>
+                <a className={styles.frameItem} href=""><img  alt="" src={group4} /></a>
               </div>
             </div>
       </div>

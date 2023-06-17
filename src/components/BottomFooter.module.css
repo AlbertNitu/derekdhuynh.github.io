@@ -7,6 +7,9 @@
   width: 46.55px;
   height: 46.55px;
 }
+.groupIcon img {
+  width: 100%;
+}
 .contactstemcastca,
 .igemmcgillca {
   color: inherit;
@@ -32,22 +35,25 @@
   font-size: 19px;
   color: var(--color-linen-100);
   font-family: var(--font-inaimathi);
+  margin-top: auto;
 }
 
 /* Small devices such as tablets (768px and below) */
 @media only screen and (max-width: 48em) {
   .footer {
-    align-self: stretch;
     background-color: var(--color-saddlebrown);
     overflow: hidden;
-    display: flex;
-    padding: 16px 29px;
+    padding: 25px 35px;
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
-    text-align: right;
     font-size: 17px;
   }
+  .groupIcon {
+    width: 26.4px;
+    height: 26.4px;
+  }
+  
 }
 
 /* Medium devices such as tablets (768px and up) */
