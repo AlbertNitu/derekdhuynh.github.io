@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stemcast/static/css/main.6a034428.css",
-    "main.js": "/stemcast/static/js/main.ea5b6bcd.js",
+    "main.css": "/stemcast/static/css/main.d15112e5.css",
+    "main.js": "/stemcast/static/js/main.4b2d3269.js",
     "static/media/background.png": "/stemcast/static/media/background.53a141963cc16ad0216d.png",
     "static/media/homepic.png": "/stemcast/static/media/homepic.65914efa8eb8faf3261b.png",
     "static/media/stemcast-cell-3.svg": "/stemcast/static/media/stemcast-cell-3.8d97a37de27a4d36a527e3530a737d93.svg",
@@ -14,11 +14,11 @@
     "static/media/nav_icon.svg": "/stemcast/static/media/nav_icon.b1ac180f9bffecae103479c6769301d4.svg",
     "index.html": "/stemcast/index.html",
     "static/media/play.svg": "/stemcast/static/media/play.d7796ec95594b9944e95982343a9fa6b.svg",
-    "main.6a034428.css.map": "/stemcast/static/css/main.6a034428.css.map",
-    "main.ea5b6bcd.js.map": "/stemcast/static/js/main.ea5b6bcd.js.map"
+    "main.d15112e5.css.map": "/stemcast/static/css/main.d15112e5.css.map",
+    "main.4b2d3269.js.map": "/stemcast/static/js/main.4b2d3269.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a034428.css",
-    "static/js/main.ea5b6bcd.js"
+    "static/css/main.d15112e5.css",
+    "static/js/main.4b2d3269.js"
   ]
 }
