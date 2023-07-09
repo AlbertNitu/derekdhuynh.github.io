@@ -4,12 +4,17 @@
 @font-face {
   font-family: "InaiMathi";
   src: url("./assets/fonts/InaiMathi/InaiMathi-01.woff") format("woff"),
-    url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.woff") format("woff"),
     url("./assets/fonts/InaiMathi/InaiMathi-01.ttf") format("truetype"),
+    url("./assets/fonts/InaiMathi/InaiMathi-MN.ttc") format("truetype"),
+    url("./assets/fonts/InaiMathi/InaiMathi-01.otf") format("postscript");
+}
+
+@font-face {
+  font-family: "InaiMathi-Bold";
+  src: url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.woff") format("woff"),
     url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.ttf") format("truetype"),
     url("./assets/fonts/InaiMathi/InaiMathi-MN.ttc") format("truetype"),
-    url("./assets/fonts/InaiMathi/InaiMathi-01.otf") format("opentype"),
-    url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.otf") format("opentype");
+    url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.otf") format("postscript");
 }
 
 body {
