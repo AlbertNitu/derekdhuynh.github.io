@@ -13,8 +13,6 @@ const Home = () => {
       <div className={styles.landingPageInner}>
       <Breakpoint at="xlg">
             <img className={styles.frameChild} alt="" src={homepic} />
-            <img className={styles.stemcastCell3} alt="" src={stemcastCell3} />
-            
       </Breakpoint>
             <div className={styles.sTEMCastParent}>
               <b className={styles.sTEContainer}>

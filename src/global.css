@@ -1,11 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=InaiMathi:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+/*@import url("https://fonts.googleapis.com/css?family=InaiMathi:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:wght@400&display=swap");*/
+
+@font-face {
+  font-family: "InaiMathi";
+  src: url("./assets/fonts/InaiMathi/InaiMathi-01.woff") format("woff"),
+    url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.woff") format("woff"),
+    url("./assets/fonts/InaiMathi/InaiMathi-01.ttf") format("truetype"),
+    url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.ttf") format("truetype"),
+    url("./assets/fonts/InaiMathi/InaiMathi-MN.ttc") format("truetype"),
+    url("./assets/fonts/InaiMathi/InaiMathi-01.otf") format("opentype"),
+    url("./assets/fonts/InaiMathi/InaiMathi-Bold-02.otf") format("opentype");
+}
+
 body {
   margin: 0;
   line-height: normal;
+  font-family: var(--font-inaimathi);
 }
 
-html, body {
+html,
+body {
   height: 100%;
   min-height: 100vh;
   width: 100%;
@@ -13,8 +27,9 @@ html, body {
 
 :root {
   /* fonts */
-  --font-inaimathi: InaiMathi;
-  --font-inter: Inter;
+  --font-inaimathi: "InaiMathi";
+  --font-inaimathi-bold: "InaiMathi-Bold";
+  --font-inter: "Inter";
 
   /* font sizes */
   --font-size-9xl-5: 28.5px;

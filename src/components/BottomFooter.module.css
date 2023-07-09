@@ -1,6 +1,7 @@
 .contactUs {
   letter-spacing: 0.1em;
   flex-shrink: 0;
+  font-family: var(--font-inaimathi-bold);
 }
 .groupIcon {
   position: relative;
@@ -10,17 +11,25 @@
 .groupIcon img {
   width: 100%;
 }
+.emails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .contactstemcastca,
 .igemmcgillca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: inherit;
   position: relative;
   letter-spacing: 0.15em;
 }
-.igemmcgillca {
+/*.igemmcgillca {
   display: inline-block;
   flex-shrink: 0;
   text-decoration: none;
-}
+}*/
 .footer {
   align-self: stretch;
   background-color: var(--color-saddlebrown);
@@ -44,22 +53,40 @@
     background-color: var(--color-saddlebrown);
     overflow: hidden;
     padding: 25px 35px;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 20px;
-    font-size: 17px;
   }
   .groupIcon {
     width: 26.4px;
     height: 26.4px;
   }
-  
+  .emails {
+    font-size: 17px;
+  }
+  .contactUs {
+    font-size: 20px;
+  }
 }
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width: 48em) {
   .footer {
     font-size: 17px;
+  }
+  .emails {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .contactstemcastca,
+  .igemmcgillca {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: inherit;
+    position: relative;
+    letter-spacing: 0.15em;
   }
 }
 

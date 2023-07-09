@@ -34,6 +34,7 @@ a:active {
   letter-spacing: 0.15em;
   display: inline-block;
   flex-shrink: 0;
+  font-family: "InaiMathi-Bold";
 }
 .about,
 .logo {
@@ -91,9 +92,9 @@ a:active {
   z-index: 2000;
 }
 
-  /* Medium devices such as tablets (768px and up) */
-  @media only screen and (max-width: 48em) {
-    .header {
-      padding: 16px 29px;
-    }
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 48em) {
+  .header {
+    padding: 16px 29px;
   }
+}

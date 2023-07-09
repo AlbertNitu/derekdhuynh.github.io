@@ -2,28 +2,29 @@
     --nav-sm: 69px;
 }
 
-a:link {
+.navBar a:link {
     background-color: transparent;
     text-decoration: none;
-  }
+    color: var(--color-saddlebrown);
+}
   
-  a:visited {
+a:visited {
     color: var(--color-saddlebrown);
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     color: var(--color-indianred);
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
-  a:active {
+a:active {
     color: var(--color-indianred);
     background-color: transparent;
     text-decoration: none;
-  }
+}
 
 /*.navBar {
     z-index: 9999;
@@ -54,7 +55,7 @@ a:link {
     transition: transform .3s
                 cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
-    z-index: 3000;
+    z-index: 9999;
 }
    
 .navContainer.hide {
@@ -103,8 +104,4 @@ a:link {
 
 @media screen and (min-width: 600px) {
 
-    /*.navContainer {
-        transform: translateY(-100%);
-        width: 100%;
-    }*/
 }

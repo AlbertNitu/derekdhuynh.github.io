@@ -1,9 +1,10 @@
-.s {
-  font-size: 46.46px;
-}
 .cast {
-  font-size: 46.46px;
   color: var(--color-saddlebrown);
+}
+
+.biotechnology,
+.sTEContainer {
+  color: var(--color-indianred);
 }
 
 .stemcastCell3 {
@@ -20,11 +21,9 @@
   position: relative;
   letter-spacing: 0.1em;
   flex-shrink: 0;
-  -webkit-text-stroke: 0.9px #e2635b;
-}
-.biotechnology,
-.sTEContainer {
-  color: var(--color-indianred);
+  -webkit-text-stroke: 0.9px var(--color-indianred);
+  font-weight: 700;
+  font-size: 46.46px;
 }
 
 .listenNow {
@@ -57,10 +56,10 @@
   box-sizing: border-box;
   align-items: flex-start;
   gap: 7px;
-  background: #EBE8E0;
+  background: #ebe8e0;
   box-shadow: 0px 2.41595px 2.41595px rgba(0, 0, 0, 0.25);
   padding: 16px 35px;
-  z-index: 2000;
+  z-index: 1000;
 }
 .vectorParent {
   position: relative;
@@ -70,7 +69,8 @@
   align-items: center;
   justify-content: center;
 }
-.landingPage, .landingPageInner {
+.landingPage,
+.landingPageInner {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -93,11 +93,11 @@
 }
 
 .aPodcastMakingContainer,
-  .listenNow {
-    position: relative;
-    letter-spacing: 0.1em;
-    flex-shrink: 0;
-    font-size: 12px;
+.listenNow {
+  position: relative;
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+  font-size: 12px;
 }
 
 /* Medium devices such as tablets (768px and up) */
@@ -155,7 +155,6 @@
 
 /* Large devices such as laptops (1024px and up) */
 @media only screen and (min-width: 64em) {
-  
 }
 
 /* Large devices such as laptops (1280px and up) */

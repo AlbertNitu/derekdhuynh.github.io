@@ -13,7 +13,7 @@ export default function useBreakpoints() {
     isMd: useMediaQuery("(min-width: 769px)"),
     isLg: useMediaQuery("(min-width: 1025px)"),
     isXlg: useMediaQuery("(min-width: 1281px)"),
-    active: "xs"
+    active: "xs",
   };
   if (breakpoints.isXs) breakpoints.active = "xs";
   if (breakpoints.isSm) breakpoints.active = "sm";
