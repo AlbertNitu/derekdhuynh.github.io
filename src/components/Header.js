@@ -24,45 +24,45 @@ const Header = () => {
       </Breakpoint>
       <Breakpoint at="md">
         <div className={styles.aboutParent}>
-          <Link className={styles.link} to="/stemcast">
+          <Link className={styles.link} to="/">
             <div className={styles.about}>ABOUT</div>
           </Link>
           <div className={styles.frameChild} />
-          <Link className={styles.link} to="/stemcast/episodes">
+          <Link className={styles.link} to="/episodes">
             <div className={styles.episodes}>EPISODES</div>
           </Link>
           <div className={styles.frameChild} />
-          <Link className={styles.link} to="/stemcast/team">
+          <Link className={styles.link} to="/team">
             <div className={styles.episodes}>TEAM</div>
           </Link>
         </div>
       </Breakpoint>
       <Breakpoint at="lg">
         <div className={styles.aboutParent}>
-          <Link className={styles.link} to="/stemcast">
+          <Link className={styles.link} to="/">
             <div className={styles.about}>ABOUT</div>
           </Link>
           <div className={styles.frameChild} />
-          <Link className={styles.link} to="/stemcast/episodes">
+          <Link className={styles.link} to="/episodes">
             <div className={styles.episodes}>EPISODES</div>
           </Link>
           <div className={styles.frameChild} />
-          <Link className={styles.link} to="/stemcast/team">
+          <Link className={styles.link} to="/team">
             <div className={styles.episodes}>TEAM</div>
           </Link>
         </div>
       </Breakpoint>
       <Breakpoint at="xlg">
         <div className={styles.aboutParent}>
-          <Link className={styles.link} to="/stemcast">
+          <Link className={styles.link} to="/">
             <div className={styles.about}>ABOUT</div>
           </Link>
           <div className={styles.frameChild} />
-          <Link className={styles.link} to="/stemcast/episodes">
+          <Link className={styles.link} to="/episodes">
             <div className={styles.episodes}>EPISODES</div>
           </Link>
           <div className={styles.frameChild} />
-          <Link className={styles.link} to="/stemcast/team">
+          <Link className={styles.link} to="/team">
             <div className={styles.episodes}>TEAM</div>
           </Link>
         </div>
