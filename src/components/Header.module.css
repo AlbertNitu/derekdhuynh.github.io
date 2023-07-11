@@ -1,0 +1,100 @@
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-saddlebrown);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-indianred);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--color-indianred);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.invLogoRemasteredIcon {
+  position: relative;
+  width: 17.46px;
+  height: 37.23px;
+}
+.cast {
+  color: var(--color-saddlebrown);
+}
+.stemcast {
+  position: relative;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  flex-shrink: 0;
+  font-family: "InaiMathi-Bold";
+}
+.about,
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.about {
+  position: relative;
+  letter-spacing: 0.15em;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: relative;
+  border-right: 0.9px solid var(--color-saddlebrown);
+  box-sizing: border-box;
+  width: 0.95px;
+  height: 19px;
+}
+.about,
+.episodes,
+.team {
+  position: relative;
+  letter-spacing: 0.15em;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.aboutParent,
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.aboutParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  color: var(--color-saddlebrown);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-floralwhite);
+  padding: 25px 61px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 19px;
+  color: var(--color-indianred);
+  font-family: var(--font-inaimathi);
+  z-index: 2000;
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 48em) {
+  .header {
+    padding: 16px 29px;
+  }
+}
