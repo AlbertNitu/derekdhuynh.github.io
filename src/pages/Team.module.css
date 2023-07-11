@@ -1,0 +1,117 @@
+.episodes1 {
+  position: relative;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  flex-shrink: 0;
+  -webkit-text-stroke: 1px #e2635b;
+}
+.episodesChild {
+  position: relative;
+  width: 108.5px;
+  height: 8px;
+  object-fit: cover;
+}
+.title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xl);
+}
+.insertImageParent {
+  position: relative;
+  width: 100%;
+  height: 207px;
+  font-size: 50px;
+  margin-top: 27px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.teamWrapper {
+  position: relative;
+  background-color: var(--color-linen-100);
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  color: var(--color-indianred);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.teamGrid {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 27px 0px;
+}
+
+.teamSection {
+  text-align: left;
+  flex-direction: row;
+  gap: 50px;
+  padding: 27px;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.memberText {
+  font-family: "InaiMathi-Bold";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 62px;
+  letter-spacing: 0.2em;
+  color: #4a1b00;
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .insertImageParent {
+    font-size: 100px;
+  }
+  .episodesChild {
+    width: 217px;
+    height: 16px;
+  }
+  .insertImageParent {
+    height: 436px;
+    margin-top: 50px;
+  }
+  .memberText {
+    font-family: "InaiMathi-Bold";
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .teamGrid {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 61px 0px;
+  }
+  .teamSection {
+    text-align: left;
+    flex-direction: row;
+    gap: 50px;
+    padding: 61px;
+  }
+}
+
+/* Medium devices such as tablets (1024px and up) */
+@media only screen and (min-width: 64em) {
+}
