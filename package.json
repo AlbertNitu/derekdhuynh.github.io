@@ -1,7 +1,7 @@
 {
     "name": "stemcast",
     "version": "0.1.0",
-    "homepage": "https://signehoel.github.io/stemcast",
+    "homepage": "https://www.stemcast.ca",
     "private": true,
     "dependencies": {
         "-": "^0.0.1",

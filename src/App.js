@@ -27,15 +27,15 @@ function App() {
     let metaDescription = "";
 
     switch (pathname) {
-      case "/stemcast":
+      case "/":
         title = "";
         metaDescription = "";
         break;
-      case "/stemcast/episodes":
+      case "/episodes":
         title = "";
         metaDescription = "";
         break;
-      case "/stemcast/team":
+      case "/team":
         title = "";
         metaDescription = "";
         break;
@@ -57,9 +57,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/stemcast" element={<LandingPage />} />
-      <Route path="/stemcast/episodes" element={<Episodes />} />
-      <Route path="/stemcast/team" element={<Team />} />
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/episodes" element={<Episodes />} />
+      <Route path="/team" element={<Team />} />
     </Routes>
   );
 }
