@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stemcast/static/css/main.644560b9.css",
+    "main.css": "/stemcast/static/css/main.efbbf80f.css",
     "main.js": "/stemcast/static/js/main.6afbb8c1.js",
     "static/media/background.png": "/stemcast/static/media/background.33f6e2e99cdcdb9c4233.png",
     "static/media/juliaforsey.png": "/stemcast/static/media/juliaforsey.d6958fecf7f93de55e25.png",
@@ -39,11 +39,11 @@
     "static/media/nav_icon.svg": "/stemcast/static/media/nav_icon.b1ac180f9bffecae103479c6769301d4.svg",
     "index.html": "/stemcast/index.html",
     "static/media/play.svg": "/stemcast/static/media/play.d7796ec95594b9944e95982343a9fa6b.svg",
-    "main.644560b9.css.map": "/stemcast/static/css/main.644560b9.css.map",
+    "main.efbbf80f.css.map": "/stemcast/static/css/main.efbbf80f.css.map",
     "main.6afbb8c1.js.map": "/stemcast/static/js/main.6afbb8c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.644560b9.css",
+    "static/css/main.efbbf80f.css",
     "static/js/main.6afbb8c1.js"
   ]
 }
