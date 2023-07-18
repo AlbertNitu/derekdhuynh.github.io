@@ -1,4 +1,5 @@
 a:link {
+  color: var(--color-saddlebrown);
   background-color: transparent;
   text-decoration: none;
 }

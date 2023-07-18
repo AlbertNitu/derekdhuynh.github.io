@@ -8,8 +8,23 @@ import stemcastCell3 from "../assets/stemcast-cell-3.svg";
 import solidMech from "../assets/solid-mech.svg";
 import Breakpoint from "../components/responsive_utilities/breakpoint";
 import homepic from "../assets/homepic.png";
-import group4 from "../assets/group-4.svg";
-import group5 from "../assets/group-5.svg";
+import apple from "../assets/group-4.svg";
+import spotify from "../assets/group-5.svg";
+
+const description = (
+  <div className={styles.loremIpsumDolor}>
+    STEMcast is run by McGill iGEM, a group of undergraduate researchers in
+    synthetic biology. STEMcast’s goal is to explore research from many
+    scientific fields–from public health to particle physics–and to make it
+    accessible to people from diverse educational levels and walks of life. From
+    our interviews with experts, we discover insights and bring listeners into
+    the loop in a variety of fields.
+    <br />
+    <br />
+    Tune in weekly to listen to the McGill iGEM team discuss big questions in
+    health, biology, AI, medicine, math, and more.
+  </div>
+);
 
 const LandingPage = () => {
   return (
@@ -32,11 +47,19 @@ const LandingPage = () => {
             </div>
             <div className={styles.listenNowParent}>
               <b className={styles.listenNow}>Listen Now:</b>
-              <a className={styles.frameItem} href="">
-                <img alt="" src={group5} />
+              <a
+                className={styles.frameItem}
+                target="_blank"
+                href="https://open.spotify.com/show/1VjEbzN6Im9u79hw0WfYpK?si=e75ce1ea73f84348"
+              >
+                <img alt="" src={spotify} />
               </a>
-              <a className={styles.frameItem} href="">
-                <img alt="" src={group4} />
+              <a
+                className={styles.frameItem}
+                target="_blank"
+                href="https://podcasts.apple.com/ca/podcast/stemcast/id1537913168"
+              >
+                <img alt="" src={apple} />
               </a>
             </div>
           </div>
@@ -48,10 +71,7 @@ const LandingPage = () => {
           <div className={styles.aboutUsContainer}>
             <b className={styles.aboutUs}>{`About Us `}</b>
             <img className={styles.frameContainer} alt="" src={aboutimg} />
-            <p
-              className={styles.loremIpsumDolor}
-            >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non tellus mauris. Proin luctus non tortor sit amet dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet dui sapien. Duis eget posuere enim, quis ullamcorper Sed sagittis, lectus vel egestas cursus, nulla nisi feugiat nunc, a
-                faucibus purus diam ac mi.`}</p>
+            {description}
           </div>
         </div>
       </Breakpoint>
@@ -60,10 +80,7 @@ const LandingPage = () => {
           <div className={styles.aboutUsContainer}>
             <b className={styles.aboutUs}>{`About Us `}</b>
             <img className={styles.frameContainer} alt="" src={aboutimg} />
-            <p
-              className={styles.loremIpsumDolor}
-            >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non tellus mauris. Proin luctus non tortor sit amet dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet dui sapien. Duis eget posuere enim, quis ullamcorper Sed sagittis, lectus vel egestas cursus, nulla nisi feugiat nunc, a
-                  faucibus purus diam ac mi.`}</p>
+            {description}
           </div>
         </div>
       </Breakpoint>
@@ -71,10 +88,7 @@ const LandingPage = () => {
         <div className={styles.about}>
           <div className={styles.aboutUsContainer}>
             <b className={styles.aboutUs}>{`About Us `}</b>
-            <p
-              className={styles.loremIpsumDolor}
-            >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non tellus mauris. Proin luctus non tortor sit amet dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet dui sapien. Duis eget posuere enim, quis ullamcorper Sed sagittis, lectus vel egestas cursus, nulla nisi feugiat nunc, a
-                faucibus purus diam ac mi.`}</p>
+            {description}
           </div>
           <div className={styles.cornerFramesContainer}>
             <img className={styles.cornerFramesIcon} alt="" src={frame} />
@@ -86,10 +100,7 @@ const LandingPage = () => {
           <img className={styles.solidMech1} src={solidMech}></img>
           <div className={styles.aboutUsContainer}>
             <b className={styles.aboutUs}>{`About Us `}</b>
-            <p
-              className={styles.loremIpsumDolor}
-            >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non tellus mauris. Proin luctus non tortor sit amet dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet dui sapien. Duis eget posuere enim, quis ullamcorper Sed sagittis, lectus vel egestas cursus, nulla nisi feugiat nunc, a
-                  faucibus purus diam ac mi.`}</p>
+            {description}
           </div>
           <div className={styles.cornerFramesContainer}>
             <img className={styles.cornerFramesIcon} alt="" src={frame} />
@@ -101,10 +112,7 @@ const LandingPage = () => {
           <img className={styles.solidMech1} src={solidMech}></img>
           <div className={styles.aboutUsContainer}>
             <b className={styles.aboutUs}>{`About Us `}</b>
-            <p
-              className={styles.loremIpsumDolor}
-            >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non tellus mauris. Proin luctus non tortor sit amet dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet dui sapien. Duis eget posuere enim, quis ullamcorper Sed sagittis, lectus vel egestas cursus, nulla nisi feugiat nunc, a
-                faucibus purus diam ac mi.`}</p>
+            {description}
           </div>
           <div className={styles.cornerFramesContainer}>
             <img className={styles.cornerFramesIcon} alt="" src={frame} />

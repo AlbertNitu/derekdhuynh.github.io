@@ -24,7 +24,6 @@ const Team = () => {
             <TeamMember
               key={index}
               name={teamMember.name}
-              description={teamMember.description}
               pic={teamMember.pic}
               linkedin={teamMember.linkedin}
               mail={teamMember.email}
