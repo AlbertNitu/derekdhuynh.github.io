@@ -41,9 +41,9 @@ const LandingPage = () => {
               <span className={styles.cast}>cast.</span>
             </b>
             <div className={styles.aPodcastMakingContainer}>
-              <span>{`A podcast making `}</span>
-              <span className={styles.biotechnology}>biotechnology </span>
-              <span>{`research accessible by breaking it down and just talking about it. `}</span>
+              <span>{`A podcast bringing you `}</span>
+              <span className={styles.biotechnology}>into the loop </span>
+              <span>{`on STEM research in biotech, AI, medicine, environment, math and much more.`}</span>
             </div>
             <div className={styles.listenNowParent}>
               <b className={styles.listenNow}>Listen Now:</b>

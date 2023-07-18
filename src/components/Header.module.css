@@ -1,22 +1,22 @@
-a:link {
+.header a:link {
   color: var(--color-saddlebrown);
   background-color: transparent;
   text-decoration: none;
 }
 
-a:visited {
+.header a:visited {
   color: var(--color-saddlebrown);
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover {
+.header a:hover {
   color: var(--color-indianred);
   background-color: transparent;
   text-decoration: none;
 }
 
-a:active {
+.header a:active {
   color: var(--color-indianred);
   background-color: transparent;
   text-decoration: none;
@@ -83,7 +83,7 @@ a:active {
 .header {
   align-self: stretch;
   background-color: var(--color-floralwhite);
-  padding: 25px 61px;
+  padding: 15px 61px;
   align-items: center;
   justify-content: space-between;
   text-align: left;
@@ -96,6 +96,6 @@ a:active {
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (max-width: 48em) {
   .header {
-    padding: 16px 29px;
+    padding: 15px 29px;
   }
 }
