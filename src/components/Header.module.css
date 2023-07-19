@@ -27,6 +27,9 @@
   width: 17.46px;
   height: 37.23px;
 }
+.stem {
+  color: var(--color-indianred);
+}
 .cast {
   color: var(--color-saddlebrown);
 }

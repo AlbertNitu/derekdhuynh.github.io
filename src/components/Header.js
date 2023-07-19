@@ -8,13 +8,15 @@ import NavBar from "./NavBar";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <div className={styles.logo}>
-        <img className={styles.invLogoRemasteredIcon} alt="" src={logo} />
-        <b className={styles.stemcast}>
-          <span>STEM</span>
-          <span className={styles.cast}>{`cast. `}</span>
-        </b>
-      </div>
+      <Link className={styles.link} to="/">
+        <div className={styles.logo}>
+          <img className={styles.invLogoRemasteredIcon} alt="" src={logo} />
+          <b className={styles.stemcast}>
+            <span className={styles.stem}>STEM</span>
+            <span className={styles.cast}>{`cast. `}</span>
+          </b>
+        </div>
+      </Link>
 
       <Breakpoint at="xs">
         <NavBar />
