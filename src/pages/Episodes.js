@@ -5,6 +5,7 @@ import Playhead from "../components/Playhead";
 import line from "../assets/line.png";
 import apple from "../assets/group-4.svg";
 import spotify from "../assets/group-5.svg";
+import episodes from "../data/episodes";
 
 const Episodes = () => {
   return (
@@ -33,9 +34,14 @@ const Episodes = () => {
         </div>
       </div>
       <div className={styles.playheadParent}>
-        {/*<Playhead/>
-            <Playhead/>
-            <Playhead/>*/}
+        {episodes.map((playhead, index) => (
+          <Playhead
+            key={index}
+            num={playhead.num}
+            title={playhead.title}
+            time={playhead.time}
+          />
+        ))}
       </div>
       <BottomFooter />
     </div>
