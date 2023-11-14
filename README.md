@@ -1,5 +1,9 @@
 # STEMCast
 
+The code for the McGill iGEM Podcast website, STEMCast. Made with ❤️ using React, TailwindCSS and Github Pages.
+
+## Running locally
+
 Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
 To preview and run the project on your device:
